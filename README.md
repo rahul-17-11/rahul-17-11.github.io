@@ -30,12 +30,6 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 - **Projects** - Some of my best works
 - **Contact** - Get in touch with me
 
----
-
-## 📷 Preview
-![Portfolio Screenshot](https://rahul1711-portfolio.netlify.app/screenshot.png) *(Replace with actual screenshot if needed)*
-
----
 
 ## 📂 How to Run Locally
 1. Clone this repository:
