@@ -1,12 +1,67 @@
-# React + Vite
+# 🚀 Rahul Waghmare - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This project showcases my skills, experience, and projects as a **Front-End Web Developer**. It is built using modern technologies to provide a smooth and interactive user experience.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [rahul1711-portfolio.netlify.app](https://rahul1711-portfolio.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
+- **React.js** ⚛️ - For building the user interface
+- **Framer Motion** 🎭 - For smooth animations and transitions
+- **Tailwind CSS** 🎨 - For modern and responsive styling
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Features
+✅ Fully Responsive Design 📱💻🖥️  
+✅ Smooth Animations with Framer Motion ✨  
+✅ Modern UI with Dark Theme 🌙  
+✅ Interactive and Dynamic Components 🖱️  
+✅ Hosted on Netlify 🚀  
+
+---
+
+## 📌 Sections
+- **Home** - Introduction and role as a developer
+- **About Me** - My background and expertise
+- **Skills** - Technologies I work with
+- **Experience** - Work history and achievements
+- **Projects** - Some of my best works
+- **Contact** - Get in touch with me
+
+---
+
+## 📷 Preview
+![Portfolio Screenshot](https://rahul1711-portfolio.netlify.app/screenshot.png) *(Replace with actual screenshot if needed)*
+
+---
+
+## 📂 How to Run Locally
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/yourusername/portfolio.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd portfolio
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+5. Open `http://localhost:5173/` in your browser.
+
+---
+
+## 📬 Connect With Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![GitHub](https://img.shields.io/badge/GitHub-Visit-black?style=for-the-badge&logo=github)](https://github.com/yourusername)
+
+---
+
+📝 **Made with ❤️ by Rahul Waghmare**
