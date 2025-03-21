@@ -54,7 +54,7 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 ---
 
 ## 📬 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)]([https://github.com/rahul-17-11/linkedin](https://www.linkedin.com/in/rahulw1711/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/rahulw1711/)
 [![GitHub](https://img.shields.io/badge/GitHub-Visit-black?style=for-the-badge&logo=github)](https://github.com/rahul-17-11)
 
 ---
