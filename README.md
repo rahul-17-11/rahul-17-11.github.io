@@ -30,11 +30,12 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 - **Projects** - Some of my best works
 - **Contact** - Get in touch with me
 
+---
 
 ## 📂 How to Run Locally
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/rahul-17-11/portfolio.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -53,8 +54,8 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 ---
 
 ## 📬 Connect With Me
-[![LinkedIn](https://www.linkedin.com/in/rahulw1711/)
-[![GitHub]]([https://github.com/yourusername](https://github.com/rahul-17-11))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://github.com/rahul-17-11/linkedin)
+[![GitHub](https://img.shields.io/badge/GitHub-Visit-black?style=for-the-badge&logo=github)](https://github.com/rahul-17-11)
 
 ---
 
