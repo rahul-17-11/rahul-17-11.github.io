@@ -53,8 +53,8 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 ---
 
 ## 📬 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-Visit-black?style=for-the-badge&logo=github)](https://github.com/yourusername)
+[![LinkedIn](https://www.linkedin.com/in/rahulw1711/)
+[![GitHub]]([https://github.com/yourusername](https://github.com/rahul-17-11))
 
 ---
 
