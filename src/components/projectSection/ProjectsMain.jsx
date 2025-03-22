@@ -21,6 +21,22 @@ const projects = [
       image:'/images/shaktimudra.png',
       link:'https://shaktimudra.netlify.app/',
       gitLink:"https://github.com/rahul-17-11/shaktimudra"
+    },
+    {
+      name:'WeatherApp',
+      year:'Jan2025',
+      align:'right',
+      image:'/images/weatherapp.png',
+      link:'https://rahul-my-weather-app.netlify.app/',
+      gitLink:"https://github.com/rahul-17-11/my-weatherapp"
+    },
+    {
+      name:'PasswordGenerator',
+      year:'April2024',
+      align:'left',
+      image:'/images/password.png',
+      link:'https://rahul17-password-generator.netlify.app/',
+      gitLink:"https://github.com/rahul-17-11/passGenrator"
     }
 ]
 
