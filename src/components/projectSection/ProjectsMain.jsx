@@ -11,14 +11,16 @@ const projects = [
       year:'Feb2025',
       align:'right',
       image:'/images/eduquizz.png',
-      link:'https://educationquizzapp.netlify.app/'
+      link:'https://educationquizzapp.netlify.app/',
+      gitLink:"https://github.com/Aamir-Hamza/B42_WEB_040_Responsive-Riders"
     },
     {
       name:'ShaktiMudra',
       year:'Mar2025',
       align:'left',
       image:'/images/shaktimudra.png',
-      link:'https://shaktimudra.netlify.app/'
+      link:'https://shaktimudra.netlify.app/',
+      gitLink:"https://github.com/rahul-17-11/shaktimudra"
     }
 ]
 
@@ -41,7 +43,7 @@ const ProjectsMain = () => {
                 viewport={{once:false, amount:0}}
                 key={i}             
                 >
-            <SingleProject key={i} name={ele.name} year={ele.year} align={ele.align} image={ele.image} link={ele.link} />
+            <SingleProject key={i} name={ele.name} year={ele.year} align={ele.align} image={ele.image} link={ele.link} gitLink={ele.gitLink} />
               </motion.div>
           ))
         }

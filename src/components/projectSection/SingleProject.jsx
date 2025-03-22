@@ -1,6 +1,8 @@
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
+import SingleContactSocial from "../contactMeSection/SingleContactSocial";
+import { FiGithub } from "react-icons/fi";
 
-const SingleProject = ({ name, year, align, image, link }) => {
+const SingleProject = ({ name, year, align, image, link, gitLink }) => {
   return (
     <div className={`flex w-full sm:flex-col-reverse items-center gap-8 ${align=='left'?'md:flex-row':'md:flex-row-reverse'} justify-end`}>
       <div>
@@ -19,6 +21,14 @@ const SingleProject = ({ name, year, align, image, link }) => {
             }`}
             >
           View <BsFillArrowUpRightCircleFill />
+        </a>
+        <a
+          href={link} target='_blank'
+          className={`text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer sm:justify-self-center ${
+              align === "left" ? "md:justify-self-end" : "md:justify-self-start"
+            }`}
+            >
+          <SingleContactSocial Icon={FiGithub} link={gitLink} />
         </a>
       </div>
       <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 ralative border border-white">
