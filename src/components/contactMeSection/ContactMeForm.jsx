@@ -5,7 +5,6 @@ const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [success, setSuccess] = useState("");
   const handleName = (e) => {
     setName(e.target.value);
   };
@@ -16,28 +15,33 @@ const ContactForm = () => {
     setMessage(e.target.value);
   };
   const form = useRef();
+
+  const publicKey = "wJZi_KSi7jvEqNB2O"
+  const serviceId = "service_rptjaes"
+  const templateId = "template_6cta54m"
+
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_ko3hmpt", "template_ahbmmqd", form.current, {
-        publicKey: "I6HAT5mUZH7WHabGE",
+      .sendForm(serviceId, templateId, form.current, {
+        publicKey: publicKey,
       })
       .then(
         () => {
           setEmail("");
           setName("");
           setMessage("");
-          setSuccess("Message Sent Succesfully");
+          alert("Message Sent Succesfully")
         },
         (error) => {
           console.log("FAILED...", error.text);
+          alert("Failed to send Message")
         }
       );
   };
 
   return (
     <div>
-      <p className="text-cyan">{success}</p>
       <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
         <input
           type="text"
@@ -70,7 +74,7 @@ const ContactForm = () => {
         />
         <button
           type="submit"
-          className="w-full rounded-lg border border-cyan text-white h-12 font-bold text-xl hover:bg-darkCyan bg-cyan transition-all duration-500"
+          className="w-full rounded-lg border cursor-pointer border-cyan text-white h-12 font-bold text-xl hover:bg-darkCyan bg-cyan transition-all duration-500"
         >
           Send
         </button>
